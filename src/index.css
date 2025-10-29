@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import "tailwindcss";
+
+*{
+  font-family: "Merriweather", serif;
+}
+
+
+::-webkit-scrollbar{
+  display: none;
+}
+/* 
+@theme{
+  --color-primary: #5044e5;
+} */
+
+
+/* Custom animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
