@@ -1,5 +1,7 @@
-const API_BASE_URL = 'http://localhost:5000/api';
+// const API_BASE_URL = 'http://localhost:5000/api';
 
+
+const API_BASE_URL = 'https://backend-llg1.vercel.app/api';
 export const authService = {
   // User Sign Up
   async signUp(userData) {
